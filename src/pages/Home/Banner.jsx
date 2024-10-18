@@ -1,16 +1,16 @@
 import React from 'react';
-import product from '../../../public/images/image-product.png'
 import { FaBagShopping } from "react-icons/fa6";
+import product from '/images/image-product.png';
 const Banner = () => {
      return (
-          <div className='bg-primayBG py-12 xl:px-28 px-4 text-gray-500'>
+          <div className='bg-primayBG container-full mx-auto py-12 xl:px-28 px-4 text-gray-500'>
 
-               <div className='py-28 flex flex-col md:flex-row-reverse justify-between items-center gap-14'>
+               <div className='py-28 container mx-auto flex flex-col md:flex-row-reverse justify-between items-center gap-14'>
 
 
                     {/* image-area */}
-                    <div className='md:w-1/2'>
-                         <img src={product} alt="" />
+                    <div className='flex'>
+                         <img className="self-end" src={product} alt="" />
                     </div> 
 
                     <div className='md:w-1/2'>

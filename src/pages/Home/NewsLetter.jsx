@@ -10,23 +10,23 @@ const NewsLetter = () => {
                {/* product image */}
                <div className='flex flex-wrap gap-2 items-center justify-center mb-20'>
                     <Link to="/">
-                         <img src="../../../public/images/instagram/img1.png" alt="" />
+                         <img src="/images/instagram/img1.png" alt="" />
                     </Link>
 
                     <Link to="/">
-                         <img src="../../../public/images/instagram/img2.png" alt="" />
+                         <img src="/images/instagram/img2.png" alt="" />
                     </Link>
 
                     <Link to="/">
-                         <img src="../../../public/images/instagram/img3.png" alt="" />
+                         <img src="/images/instagram/img3.png" alt="" />
                     </Link>
 
                     <Link to="/">
-                         <img src="../../../public/images/instagram/img4.png" alt="" />
+                         <img src="/images/instagram/img4.png" alt="" />
                     </Link>
 
                     <Link to="/">
-                         <img src="../../../public/images/instagram/img5.png" alt="" />
+                         <img src="/images/instagram/img5.png" alt="" />
                     </Link>
 
                </div>

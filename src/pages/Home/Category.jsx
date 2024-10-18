@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const companyLogo = [
-  { id: 1, img: "../../../public/images/company/01.png" },
-  { id: 2, img: "../../../public/images/company/02.png" },
-  { id: 3, img: "../../../public/images/company/03.png" },
-  { id: 4, img: "../../../public/images/company/04.png" },
-  { id: 5, img: "../../../public/images/company/05.png" },
+  { id: 1, img: "/images/company/01.png" },
+  { id: 2, img: "/images/company/02.png" },
+  { id: 3, img: "/images/company/03.png" },
+  { id: 4, img: "/images/company/04.png" },
+  { id: 5, img: "/images/company/05.jpg" },
 ];
 
 const Category = () => {
   return (
-    <div className="max-w-screen-2xl container xl:px-28 px-4 py-16">
+    <div className="max-w-screen-2xl container mx-auto xl:px-28 px-4 py-16">
       {/* brand logo */}
-      <div className="flex items-center justify-around flex-wrap gap-4 py-5">
+      <div className="flex flex-row flex-wrap place-content-evenly py-5">
         {companyLogo.map(({ id, img }) => (
           <div key={id}>
             <img src={img} alt="" />

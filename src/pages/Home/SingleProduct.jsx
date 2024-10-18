@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaArrowAltCircleRight, FaStar } from 'react-icons/fa';
 import { useParams } from 'react-router-dom';
-import Category from './Category';
 
 const SingleProduct = () => {
 
@@ -79,7 +78,7 @@ const SingleProduct = () => {
 
                     <div className='text-black/75 mt-12'>
                          <p>Customers like the comfort, quality, and appearance of the sweater. They mention it has a soft comfortable feel, the stitching is high-quality, and the hardware is nice. Some appreciate the warmth, material thickness, and weight. However, some customers disagree on the fit.</p>
-                         <p>Customers like the quality, comfort, and sexiness of the sweatshirt. They mention it's durable, soft, cozy, and has a touch of timeless style. Some are also happy with the warmth. However, some customers disagree on the fit and material thickness.</p>
+                         <p>Customers like the quality, comfort, and sexiness of the sweatshirt. They mention it&lsquo;s durable, soft, cozy, and has a touch of timeless style. Some are also happy with the warmth. However, some customers disagree on the fit and material thickness.</p>
                          <p>Upgrade your wardrobe with our Premium Cotton T-Shirt! Crafted from 100% soft, breathable cotton, this T-shirt is designed to offer both style and comfort for everyday wear. Available in a variety of colors and sizes, it’s perfect for any casual outing or as a base layer for your favorite jacket.</p>
                          <p>Upgrade your wardrobe with our Premium Cotton T-Shirt! Crafted from 100% soft, breathable cotton, this T-shirt is designed to offer both style and comfort for everyday wear. Available in a variety of colors and sizes, it’s perfect for any casual outing or as a base layer for your favorite jacket.</p>
                     </div>

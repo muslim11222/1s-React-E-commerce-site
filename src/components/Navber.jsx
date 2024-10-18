@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaSearch, FaTimes } from "react-icons/fa";
 // image import
-import logo from "../../public/logo.png"
+import logo from "/logo.png";
 // icon import
 import { FaUser } from "react-icons/fa";
 // icon import
@@ -28,8 +28,8 @@ const Navber = () => {
           {title: "Craft Supplies & Tools", path: "/"},
      ];
      return (
-       <header className='max-w-screen-2xl xl:px-28 px:4 absolute top-0 right-0 left-0'>
-          <nav className='flex justify-between items-center container md:py-4 pt-6 pb-3'>
+       <header className='max-w-screen-2xl container mx-auto absolute top-0 left-1/2 transform -translate-x-1/2 p-7'>
+          <nav className='flex justify-between items-center  md:py-4 pt-6 pb-3'>
              <FaSearch className='text-black w-5 h-5 cursor-pointer hidden md:block'/>
 
              {/* logo */}

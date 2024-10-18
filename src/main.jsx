@@ -1,11 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
 
 import {
-  createBrowserRouter,
-  RouterProvider,
+	createBrowserRouter,
+	RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home/Home.jsx';
 import SingleProduct from './pages/Home/SingleProduct.jsx';
